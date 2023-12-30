@@ -1,0 +1,17 @@
+.new_project_card_container {
+    padding: 10px 12px;
+    background-color: white;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    border-radius: 10px;
+}
+
+.new_project_card_container img {
+    object-fit: cover;
+    width: 100%;
+    height: 160px;
+    cursor: pointer;
+}

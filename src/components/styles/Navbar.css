@@ -1,0 +1,36 @@
+.navbar_container {
+    display: flex;
+    background-color: rgb(248, 248, 248);
+    padding: 15px 20px;
+    align-items:flex-start;
+    justify-content: flex-end;
+    gap: 25px;
+}
+
+.profile_link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.profile_link img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%
+}
+
+.acc_type {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.red_color {
+    color: #FA782F;
+}
+
+.small_text {
+    font-size: 14px;
+}
